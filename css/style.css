@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.boxes_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: calc(100% / 8);
+    aspect-ratio: 1 / 1;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1389B2;
+}
+
+.bg-green {
+    background-color: #0AD6A1;
+}
+
+.bg-red {
+    background-color: #F0466F;
+}
+
+.bg-yellow {
+    background-color: #FFD166;
+}
+
+
+
+/* #F0466F rosso
+#FFD166 giallo */
